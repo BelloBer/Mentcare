@@ -1,0 +1,169 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentcare System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <h1>Mentcare</h1>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#patients">Patients</a></li>
+                    <li><a href="#appointments">Appointments</a></li>
+                    <li><a href="#reports">Reports</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                </ul>
+            </nav>
+            <div class="user-profile">
+                <img src="user-placeholder.png" alt="User Profile">
+                <p>Dr. John Doe</p>
+                <a href="#logout">Logout</a>
+            </div>
+        </aside>
+        <main class="content">
+            <header class="main-header">
+                <h2>Welcome to the Mentcare System</h2>
+                <p>Providing the best care for mental health patients.</p>
+            </header>
+            <section id="dashboard" class="main-section">
+                <h3>Dashboard</h3>
+                <div class="dashboard-cards">
+                    <div class="card">
+                        <h4>Patients</h4>
+                        <p>150</p>
+                    </div>
+                    <div class="card">
+                        <h4>Appointments</h4>
+                        <p>75</p>
+                    </div>
+                    <div class="card">
+                        <h4>Reports</h4>
+                        <p>12</p>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+    </div>
+</body>
+</html>
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentcare System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <h1><i class="fas fa-hospital-user"></i> Mentcare</h1>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#dashboard"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                    <li><a href="#patients"><i class="fas fa-user-injured"></i> Patients</a></li>
+                    <li><a href="#appointments"><i class="fas fa-calendar-alt"></i> Appointments</a></li>
+                    <li><a href="#reports"><i class="fas fa-file-alt"></i> Reports</a></li>
+                    <li><a href="#settings"><i class="fas fa-cogs"></i> Settings</a></li>
+                </ul>
+            </nav>
+            <div class="user-profile">
+                <img src="https://via.placeholder.com/60" alt="User Profile">
+                <p>Dr. John Doe</p>
+                <a href="#logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+        </aside>
+        <main class="content">
+            <header class="main-header">
+                <h2>Welcome to the Mentcare System</h2>
+                <p>Providing the best care for mental health patients.</p>
+            </header>
+            <section id="dashboard" class="main-section">
+                <h3><i class="fas fa-tachometer-alt"></i> Dashboard</h3>
+                <div class="dashboard-cards">
+                    <div class="card">
+                        <h4><i class="fas fa-user-injured"></i> Patients</h4>
+                        <p>150</p>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-calendar-alt"></i> Appointments</h4>
+                        <p>75</p>
+                    </div>
+                    <div class="card">
+                        <h4><i class="fas fa-file-alt"></i> Reports</h4>
+                        <p>12</p>
+                    </div>
+                </div>
+            </section>
+            <section id="patients" class="main-section">
+                <h3><i class="fas fa-user-injured"></i> Patients</h3>
+                <table class="patients-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Condition</th>
+                            <th>Last Visit</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jane Doe</td>
+                            <td>30</td>
+                            <td>Depression</td>
+                            <td>2024-08-25</td>
+                            <td><a href="#"><i class="fas fa-eye"></i> View</a></td>
+                        </tr>
+                        <tr>
+                            <td>John Smith</td>
+                            <td>45</td>
+                            <td>Anxiety</td>
+                            <td>2024-08-20</td>
+                            <td><a href="#"><i class="fas fa-eye"></i> View</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="appointments" class="main-section">
+                <h3><i class="fas fa-calendar-alt"></i> Appointments</h3>
+                <div class="appointments-list">
+                    <div class="appointment">
+                        <h4><i class="fas fa-user-md"></i> Dr. John Doe</h4>
+                        <p>Appointment with Jane Doe - 2024-08-30</p>
+                    </div>
+                    <div class="appointment">
+                        <h4><i class="fas fa-user-md"></i> Dr. Jane Smith</h4>
+                        <p>Appointment with John Smith - 2024-09-01</p>
+                    </div>
+                </div>
+            </section>
+            <section id="reports" class="main-section">
+                <h3><i class="fas fa-file-alt"></i> Reports</h3>
+                <p>Monthly reports will be available here.</p>
+            </section>
+            <section id="settings" class="main-section">
+                <h3><i class="fas fa-cogs"></i> Settings</h3>
+                <p>Adjust your system preferences here.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
